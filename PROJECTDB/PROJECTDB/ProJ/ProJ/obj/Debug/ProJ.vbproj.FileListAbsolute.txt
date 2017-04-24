@@ -1,0 +1,52 @@
+C:\Users\kannachart\Desktop\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.exe.config
+C:\Users\kannachart\Desktop\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.exe
+C:\Users\kannachart\Desktop\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.pdb
+C:\Users\kannachart\Desktop\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.xml
+C:\Users\kannachart\Desktop\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Form1.resources
+C:\Users\kannachart\Desktop\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Resources.resources
+C:\Users\kannachart\Desktop\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.vbproj.GenerateResource.Cache
+C:\Users\kannachart\Desktop\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.exe
+C:\Users\kannachart\Desktop\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.xml
+C:\Users\kannachart\Desktop\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.pdb
+C:\Users\kannachart\Desktop\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.vbprojResolveAssemblyReference.cache
+C:\Users\LUPANG\Downloads\PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.exe.config
+C:\Users\LUPANG\Downloads\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.exe
+C:\Users\LUPANG\Downloads\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.xml
+C:\Users\LUPANG\Downloads\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.pdb
+C:\Users\LUPANG\Downloads\PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.exe
+C:\Users\LUPANG\Downloads\PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.pdb
+C:\Users\LUPANG\Downloads\PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.xml
+C:\Users\LUPANG\Downloads\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.vbprojResolveAssemblyReference.cache
+C:\Users\LUPANG\Downloads\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Form1.resources
+C:\Users\LUPANG\Downloads\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Form2.resources
+C:\Users\LUPANG\Downloads\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Resources.resources
+C:\Users\LUPANG\Downloads\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.exe.config
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.exe
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.xml
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.pdb
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.exe
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.pdb
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.xml
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.vbprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Form1.resources
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Form2.resources
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Resources.resources
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.vbproj.GenerateResource.Cache
+F:\ \PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.exe.config
+F:\ \PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.exe
+F:\ \PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.xml
+F:\ \PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.pdb
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.exe.config
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.exe
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.xml
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.pdb
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.exe
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.pdb
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\bin\Debug\ProJ.xml
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.vbprojResolveAssemblyReference.cache
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Form1.resources
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Form2.resources
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Resources.resources
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.vbproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Form3.resources
