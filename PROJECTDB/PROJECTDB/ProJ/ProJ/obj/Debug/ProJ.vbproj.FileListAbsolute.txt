@@ -50,3 +50,4 @@ C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Form2.resou
 C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Resources.resources
 C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.vbproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Form3.resources
+C:\Users\LUPANG\Desktop\PROJECTDB\PROJECTDB\ProJ\ProJ\obj\Debug\ProJ.Form3.resources

@@ -103,7 +103,7 @@ Partial Class Form3
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 25
-        Me.Button1.Text = "Button1"
+        Me.Button1.Text = "เพิ่มข้อมูล"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Form3

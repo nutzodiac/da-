@@ -22,62 +22,27 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.DataGridView3 = New System.Windows.Forms.DataGridView()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
-        Me.cbtype = New System.Windows.Forms.ComboBox()
+        Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.rd1 = New System.Windows.Forms.RadioButton()
+        Me.rd2 = New System.Windows.Forms.RadioButton()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'DataGridView3
-        '
-        Me.DataGridView3.BackgroundColor = System.Drawing.SystemColors.ActiveCaption
-        Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView3.Location = New System.Drawing.Point(144, 84)
-        Me.DataGridView3.Margin = New System.Windows.Forms.Padding(2)
-        Me.DataGridView3.Name = "DataGridView3"
-        Me.DataGridView3.RowTemplate.Height = 24
-        Me.DataGridView3.Size = New System.Drawing.Size(363, 396)
-        Me.DataGridView3.TabIndex = 1
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label1.Location = New System.Drawing.Point(141, 54)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(66, 17)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "เลขที่บิล :"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(222, Byte))
-        Me.Label2.Location = New System.Drawing.Point(532, 56)
+        Me.Label2.Location = New System.Drawing.Point(582, 56)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(50, 17)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "วันที่  :"
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.BackColor = System.Drawing.SystemColors.Control
-        Me.GroupBox2.Location = New System.Drawing.Point(9, 10)
-        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2)
-        Me.GroupBox2.Size = New System.Drawing.Size(107, 496)
-        Me.GroupBox2.TabIndex = 6
-        Me.GroupBox2.TabStop = False
         '
         'Button1
         '
@@ -105,20 +70,46 @@ Partial Class Form2
         Me.DataGridView2.Size = New System.Drawing.Size(429, 250)
         Me.DataGridView2.TabIndex = 9
         '
-        'cbtype
+        'CrystalReportViewer1
         '
-        Me.cbtype.FormattingEnabled = True
-        Me.cbtype.Location = New System.Drawing.Point(750, 53)
-        Me.cbtype.Name = "cbtype"
-        Me.cbtype.Size = New System.Drawing.Size(121, 21)
-        Me.cbtype.TabIndex = 10
+        Me.CrystalReportViewer1.ActiveViewIndex = -1
+        Me.CrystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.CrystalReportViewer1.CachedPageNumberPerDoc = 10
+        Me.CrystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.CrystalReportViewer1.Location = New System.Drawing.Point(12, 13)
+        Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
+        Me.CrystalReportViewer1.Size = New System.Drawing.Size(504, 490)
+        Me.CrystalReportViewer1.TabIndex = 12
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(587, 54)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(523, 483)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(144, 20)
         Me.DateTimePicker1.TabIndex = 11
+        Me.DateTimePicker1.Visible = False
+        '
+        'rd1
+        '
+        Me.rd1.AutoSize = True
+        Me.rd1.Location = New System.Drawing.Point(776, 33)
+        Me.rd1.Name = "rd1"
+        Me.rd1.Size = New System.Drawing.Size(56, 17)
+        Me.rd1.TabIndex = 13
+        Me.rd1.TabStop = True
+        Me.rd1.Text = "รายรับ"
+        Me.rd1.UseVisualStyleBackColor = True
+        '
+        'rd2
+        '
+        Me.rd2.AutoSize = True
+        Me.rd2.Location = New System.Drawing.Point(776, 70)
+        Me.rd2.Name = "rd2"
+        Me.rd2.Size = New System.Drawing.Size(61, 17)
+        Me.rd2.TabIndex = 14
+        Me.rd2.TabStop = True
+        Me.rd2.Text = "รายจ่าย"
+        Me.rd2.UseVisualStyleBackColor = True
         '
         'Form2
         '
@@ -126,31 +117,28 @@ Partial Class Form2
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLight
         Me.ClientSize = New System.Drawing.Size(964, 515)
+        Me.Controls.Add(Me.rd2)
+        Me.Controls.Add(Me.rd1)
+        Me.Controls.Add(Me.CrystalReportViewer1)
         Me.Controls.Add(Me.DateTimePicker1)
-        Me.Controls.Add(Me.cbtype)
         Me.Controls.Add(Me.DataGridView2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.DataGridView3)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form2"
         Me.Text = "Form2"
-        CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents DataGridView3 As System.Windows.Forms.DataGridView
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents DataGridView2 As System.Windows.Forms.DataGridView
-    Friend WithEvents cbtype As ComboBox
-    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents CrystalReportViewer1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
+    Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
+    Friend WithEvents rd1 As System.Windows.Forms.RadioButton
+    Friend WithEvents rd2 As System.Windows.Forms.RadioButton
 End Class

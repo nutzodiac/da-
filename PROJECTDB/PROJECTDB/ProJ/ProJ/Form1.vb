@@ -14,7 +14,7 @@ Public Class Form1
     Dim status As Integer = 1
     Dim price As Integer
     Dim Mn As String
-    Dim billst As Integer = 1 'บิลจะแอดไปเรื่อยๆ 
+    Dim billst As Integer  'บิลจะแอดไปเรื่อยๆ 
     Dim desc As String
 
 
@@ -313,5 +313,9 @@ Public Class Form1
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         Form3.Show()
+    End Sub
+
+    Private Sub Label10_TextChanged(sender As Object, e As EventArgs) Handles Label10.TextChanged
+        billst = 1
     End Sub
 End Class
