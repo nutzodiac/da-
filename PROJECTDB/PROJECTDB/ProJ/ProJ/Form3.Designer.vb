@@ -31,6 +31,7 @@ Partial Class Form3
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label9
@@ -92,25 +93,36 @@ Partial Class Form3
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(138, 138)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(220, 375)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(132, 20)
         Me.DateTimePicker1.TabIndex = 24
+        Me.DateTimePicker1.Visible = False
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(138, 239)
+        Me.Button1.Location = New System.Drawing.Point(120, 231)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(131, 68)
         Me.Button1.TabIndex = 25
         Me.Button1.Text = "เพิ่มข้อมูล"
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(138, 138)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(39, 13)
+        Me.Label4.TabIndex = 26
+        Me.Label4.Text = "Label4"
         '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(432, 407)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.Label3)
@@ -136,4 +148,5 @@ Partial Class Form3
     Friend WithEvents TextBox3 As TextBox
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label4 As System.Windows.Forms.Label
 End Class

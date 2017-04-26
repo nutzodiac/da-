@@ -14,7 +14,7 @@ Public Class Form1
     Dim status As Integer = 1
     Dim price As Integer
     Dim Mn As String
-    Dim billst As Integer  'บิลจะแอดไปเรื่อยๆ 
+    Public billst As Integer  'บิลจะแอดไปเรื่อยๆ 
     Dim desc As String
 
 
@@ -255,35 +255,35 @@ Public Class Form1
 
             If DataGridView1.Rows(i - 1).Cells("รายละเอียด").Value.ToString() = "ล้างสี-ดูดฝุ่น" Then
                 Mn = "M01"
-                strbill = "Insert Into BILL_TABLE values ('" + Label11.Text + "','" + Label10.Text + "','" + TimeOfDay.TimeOfDay.ToString() + "','" + price + "','" + TxtCar.Text + "','" + "BT01" + "','" + Mn + "');"
+                strbill = "Insert Into BILL_TABLE values ('" + Label11.Text + "','" + Label10.Text + "','" + TimeOfDay.TimeOfDay.ToString() + "','" + price + "','" + TxtCar.Text + "','" + "BT01" + "','" + Mn + "','" + "000" + "');"
                 Dim cmd2 = New SqlClient.SqlCommand(strbill, ObjConn)
                 cmd2.ExecuteNonQuery()
                 billst += 1
                 Label11.Text = billst.ToString()
             ElseIf DataGridView1.Rows(i - 1).Cells("รายละเอียด").Value.ToString() = "ขัดเคลือบสีทั้งคัน" Then
                 Mn = "M02"
-                strbill = "Insert Into BILL_TABLE values ('" + Label11.Text + "','" + Label10.Text + "','" + TimeOfDay.TimeOfDay.ToString() + "','" + price + "','" + TxtCar.Text + "','" + "BT01" + "','" + Mn + "');"
+                strbill = "Insert Into BILL_TABLE values ('" + Label11.Text + "','" + Label10.Text + "','" + TimeOfDay.TimeOfDay.ToString() + "','" + price + "','" + TxtCar.Text + "','" + "BT01" + "','" + Mn + "','" + "000" + "');"
                 Dim cmd2 = New SqlClient.SqlCommand(strbill, ObjConn)
                 cmd2.ExecuteNonQuery()
                 billst += 1
                 Label11.Text = billst.ToString()
             ElseIf DataGridView1.Rows(i - 1).Cells("รายละเอียด").Value.ToString() = "ล้างรถมอเตอร์ไซต์" Then
                 Mn = "M03"
-                strbill = "Insert Into BILL_TABLE values ('" + Label11.Text + "','" + Label10.Text + "','" + TimeOfDay.TimeOfDay.ToString() + "','" + price + "','" + TxtCar.Text + "','" + "BT01" + "','" + Mn + "');"
+                strbill = "Insert Into BILL_TABLE values ('" + Label11.Text + "','" + Label10.Text + "','" + TimeOfDay.TimeOfDay.ToString() + "','" + price + "','" + TxtCar.Text + "','" + "BT01" + "','" + Mn + "','" + "000" + "');"
                 Dim cmd2 = New SqlClient.SqlCommand(strbill, ObjConn)
                 cmd2.ExecuteNonQuery()
                 billst += 1
                 Label11.Text = billst.ToString()
             ElseIf DataGridView1.Rows(i - 1).Cells("รายละเอียด").Value.ToString() = "ล้างห้องเครือง" Then
                 Mn = "M04"
-                strbill = "Insert Into BILL_TABLE values ('" + Label11.Text + "','" + Label10.Text + "','" + TimeOfDay.TimeOfDay.ToString() + "','" + price + "','" + TxtCar.Text + "','" + "BT01" + "','" + Mn + "');"
+                strbill = "Insert Into BILL_TABLE values ('" + Label11.Text + "','" + Label10.Text + "','" + TimeOfDay.TimeOfDay.ToString() + "','" + price + "','" + TxtCar.Text + "','" + "BT01" + "','" + Mn + "','" + "000" + "');"
                 Dim cmd2 = New SqlClient.SqlCommand(strbill, ObjConn)
                 cmd2.ExecuteNonQuery()
                 billst += 1
                 Label11.Text = billst.ToString()
             ElseIf DataGridView1.Rows(i - 1).Cells("รายละเอียด").Value.ToString() = "ล้างยางมะตอย" Then
                 Mn = "M05"
-                strbill = "Insert Into BILL_TABLE values ('" + Label11.Text + "','" + Label10.Text + "','" + TimeOfDay.TimeOfDay.ToString() + "','" + price + "','" + TxtCar.Text + "','" + "BT01" + "','" + Mn + "');"
+                strbill = "Insert Into BILL_TABLE values ('" + Label11.Text + "','" + Label10.Text + "','" + TimeOfDay.TimeOfDay.ToString() + "','" + price + "','" + TxtCar.Text + "','" + "BT01" + "','" + Mn + "','" + "000" + "');"
                 Dim cmd2 = New SqlClient.SqlCommand(strbill, ObjConn)
                 cmd2.ExecuteNonQuery()
                 billst += 1

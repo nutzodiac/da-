@@ -543,8 +543,8 @@ Partial Class Form1
     Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label13 As Label
     Friend WithEvents Button6 As Button
+    Public WithEvents Label11 As System.Windows.Forms.Label
 End Class
